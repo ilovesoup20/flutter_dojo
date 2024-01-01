@@ -1,0 +1,36 @@
+name: flutter_dojo
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  rxdart: ^0.27.7
+
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.0-nullsafety
+  http: any
+  test: ^1.22.0
+
+  google_fonts: ^4.0.4
+  awesome_package: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: packages/awesome_package/fonts/Raleway-Regular.ttf
+        - asset: packages/awesome_package/fonts/Raleway-Italic.ttf
+          style: italic
